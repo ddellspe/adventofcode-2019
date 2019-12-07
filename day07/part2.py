@@ -100,6 +100,6 @@ mreset = []
 for l in open('input.txt', 'r'):
     mreset = [int(x) for x in l.strip().split(',')]
 
-settings = list(range(5))
+settings = list(range(5, 10))
 max = run(mreset, settings)
 print("Maximum Thrust: ", max)
